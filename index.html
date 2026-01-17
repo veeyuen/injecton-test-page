@@ -3,115 +3,46 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>INJECTION_DIFF_GUARANTEE_FIX2D2Z_V3_DEFINITIVE</title>
+  <title>INJECTION_DIFF_DEMO_V4_MINIMAL_DEFINITIVE</title>
 </head>
 <body>
-  <h1>Injected Current Metrics (Definitive Baseline-Diff Test Page)</h1>
-  <p><strong>INJECTION_DIFF_GUARANTEE_FIX2D2Z_V3_DEFINITIVE</strong></p>
-
-  <!--
-    Design goals (important for your extractor + selector):
-    1) Each metric is isolated in its own section (no mixed “repeat everything” blob).
-    2) The disambiguating keywords (“chargers”, “sales”, “YTD 2025”, “2040”, “CAGR”, “investment”) are
-       placed within a few words of the numeric token to prevent cross-binding.
-    3) Currency values include explicit currency evidence (US$, USD).
-    4) Percent values include the percent sign (%).
-    5) “million units” is used for sales; “million chargers” is used for chargers count.
-  -->
+  <h1>Injected Current Metrics (Diff Demo V4 Minimal Definitive)</h1>
+  <p><strong>INJECTION_DIFF_DEMO_V4_MINIMAL_DEFINITIVE</strong></p>
 
   <hr />
 
-  <!-- METRIC 1: Currency (Investment 2040) -->
-  <section id="global-ev-charging-investment-2040">
-    <h2>Global EV charging investment (2040) — currency</h2>
-
-    <p>
-      <strong>Global EV charging investment (2040):</strong>
-      US$ 1,020.0 billion (USD 1020.0 bn)
-    </p>
-
-    <p>
-      <strong>Repeat (same metric, same number):</strong>
-      In 2040, EV charging investment is <span>US$ 1,020.0 billion</span> (USD 1020.0 bn).
-    </p>
-
-    <p>
-      Hint words: charging investment, infrastructure investment, capex, USD, US$.
-    </p>
+  <section id="metric-investment-2040">
+    <h2>Global EV charging investment (2040)</h2>
+    <p>Global EV charging investment (2040): US$ 1,020.0 billion (USD 1020.0 bn).</p>
   </section>
 
   <hr />
 
-  <!-- METRIC 2: Percent (CAGR 2026–2040) -->
-  <section id="global-ev-chargers-cagr-2026-2040">
-    <h2>Global EV charging infrastructure CAGR (2026–2040) — percent</h2>
-
-    <p>
-      <strong>Global EV charging infrastructure CAGR (2026–2040):</strong>
-      <span>3.1%</span>
-    </p>
-
-    <p>
-      <strong>Repeat (same metric, same number):</strong>
-      The charging infrastructure CAGR from 2026 to 2040 is <span>3.1%</span>.
-    </p>
-
-    <p>
-      Hint words: CAGR, growth rate, percent, %, 2026–2040.
-    </p>
+  <section id="metric-cagr-2026-2040">
+    <h2>Global EV charging infrastructure CAGR (2026–2040)</h2>
+    <p>Global EV charging infrastructure CAGR (2026–2040): 3.1%.</p>
   </section>
 
   <hr />
 
-  <!-- METRIC 3: Unit count (Chargers 2040) -->
-  <section id="global-ev-chargers-2040-unit-count">
-    <h2>Global EV chargers (2040) — unit count</h2>
-
-    <p>
-      <strong>Global EV chargers (2040):</strong>
-      <span>45.0 million chargers</span>
-      (<span>45.0 million</span> charger units)
-    </p>
-
-    <p>
-      <strong>Repeat (same metric, same number):</strong>
-      In 2040, the number of EV chargers is <span>45.0 million chargers</span> worldwide.
-    </p>
-
-    <p>
-      Hint words: chargers, charging points, charging stations, charger count, 2040.
-    </p>
+  <section id="metric-chargers-2040">
+    <h2>Global EV chargers (2040)</h2>
+    <p>Global EV chargers (2040): 45.0 million chargers.</p>
   </section>
 
   <hr />
 
-  <!-- METRIC 4: Unit sales (Sales YTD 2025) -->
-  <section id="global-ev-sales-ytd-2025-unit-sales">
-    <h2>Global EV sales (YTD 2025) — unit sales</h2>
-
-    <p>
-      <strong>Global EV sales (YTD 2025):</strong>
-      <span>33.0 million units</span>
-      (units sold YTD 2025)
-    </p>
-
-    <p>
-      <strong>Repeat (same metric, same number):</strong>
-      EV sales YTD 2025 are <span>33.0 million units</span> sold.
-    </p>
-
-    <p>
-      Hint words: sales, units sold, unit sales, YTD 2025, global EV sales.
-    </p>
+  <section id="metric-sales-ytd-2025">
+    <h2>Global EV sales (YTD 2025)</h2>
+    <p>Global EV sales (YTD 2025): 33.0 million units (units sold).</p>
   </section>
 
   <hr />
 
   <footer>
     <p>
-      Page label: INJECTION_DIFF_GUARANTEE_FIX2D2Z_V3_DEFINITIVE.
-      This page contains four isolated metrics for deterministic extraction and selector binding tests.
-      Do not add combined paragraphs that mix multiple metrics in one sentence block.
+      Page label: INJECTION_DIFF_DEMO_V4_MINIMAL_DEFINITIVE.
+      This page is intentionally minimal: one statement per metric, no hint words, no repeats.
     </p>
   </footer>
 </body>
